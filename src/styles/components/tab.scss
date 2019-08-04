@@ -1,0 +1,31 @@
+.tab {
+  width: 100%;
+  padding: 17px 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: $font-size-14;
+  font-family: "Roboto";
+  color: $white;
+  box-sizing: border-box;
+  cursor: pointer;
+  
+  &--active, &:hover {
+    background: $background-dark;
+  }
+}
+
+.tab__wrapper {
+  display: flex;
+}
+
+.tab__image {
+  margin-right: 10px;
+}
+
+.tab__count {
+  font-size: $font-size-14;
+  font-family: "ProximaNova";
+  color: $text-dark-grey;
+}

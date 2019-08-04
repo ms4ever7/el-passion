@@ -1,0 +1,43 @@
+.issue {
+  width: 100%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.issue__date {
+  font-size: $font-size-12;
+  font-family: "Roboto";
+  color: $text-dark-grey;
+}
+
+.issue__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
+  padding: 10px;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+
+  background: $white;
+  border: 1px solid $border-main-grey;
+  border-radius: 5px;
+  
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.issue__title {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: $black;
+}
+
+.issue__icon {
+  &--active {
+    stroke: $border-main-grey;
+    fill: $white;
+    fill-rule: evenodd;
+  }
+}

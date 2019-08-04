@@ -1,0 +1,41 @@
+.sidebar {
+  width: 150px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__tabs {
+  width: 100%;
+}
+
+.sidebar__top-buttons {
+  width: 100%;
+  padding: 15px 0 15px 15px;
+  box-sizing: border-box;
+
+  display: flex;
+  align-items: center;
+  background: $background-grey;
+}
+
+.sidebar__top-button {
+  cursor: pointer;
+  width: 10px;
+  height: 10px;
+  margin-right: 11px;
+  border-radius: 50%;
+
+  &--red {
+    background-color: $main-red;
+  }
+
+  &--yellow {
+    background-color: $main-yellow;
+  }
+
+  &--green {
+    background-color: $main-green;
+  }
+}
